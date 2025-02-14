@@ -22,6 +22,7 @@ function WeeklySchedule() {
         <li>Wednesday: State & Props</li>
         <li>Thursday: Event Handling</li>
         <li>Friday: Project Work</li>
+        <li>Saturday: Birbalo</li>
       </ul>
     </div>
   );
