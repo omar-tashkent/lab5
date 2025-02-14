@@ -1,0 +1,100 @@
+/* App.css */
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+.glass-container {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+
+}
+.button{
+        height: 53px;
+}
+/* Glassmorphism Text Prompt */
+.text-prompt {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 15px;
+  width: 80%;
+  max-width: 500px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+outline: none;
+
+}
+
+.text-prompt input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.text-prompt::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.text-prompt:focus-within {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+.clock {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  margin: 10px auto;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
