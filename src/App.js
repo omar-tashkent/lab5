@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "styles.css"; // Add styles for glassmorphism effect
+
 
 function Clock() {
   const [time, setTime] = useState(new Date());
